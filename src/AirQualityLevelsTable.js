@@ -1,3 +1,5 @@
+import React from "react"
+
 const AirQualityLevelsTable = () => {
   const levels = [
     { range: '0 - 50', level: 'Good' },
@@ -31,3 +33,5 @@ const AirQualityLevelsTable = () => {
     </div>
   )
 }
+
+export default AirQualityLevelsTable;

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import CitySearch from './CitySearch';
 import AirQualityCard from './AirQualityCard';
 import PollutantInfo from './PollutantInfo';
+import AirQualityLevelsTable from './AirQualityLevelsTable';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -41,6 +42,7 @@ function App() {
           <PollutantInfo pollutant={airQualityData.dominentpol} />
         </>
       )}
+      <AirQualityLevelsTable/>
     </div>
   );
 }
