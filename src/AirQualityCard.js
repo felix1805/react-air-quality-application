@@ -17,7 +17,7 @@ const getCardColor = (aqi) => {
 }
 
 const AirQualityCard = ({ data }) => {
-  const { aqi, city, dominentpol, time, iaqi } = data
+  const { aqi, city, dominentpol, time, iaqi, forecast } = data
   const cardColor = getCardColor(aqi)
   return (
     <div className={`card mb-4 ${cardColor}`}>

@@ -15,7 +15,7 @@ function App() {
     try {
       const response = await fetch(`https://api.waqi.info/feed/${city}/?token=${process.env.REACT_APP_AQI_TOKEN}`)
       const data = await response.json()
-      console.log(data)
+      console.log(data.data)
       if (response.ok && data.status === 'ok') {
         setAirQualityData(data.data)
         setError(null)

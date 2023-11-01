@@ -11,7 +11,7 @@ const AirQualityLevelsTable = () => {
   ]
   return (
     <div className="card mb-4">
-      <div className="card-body">
+      <div className="card-body bg-danger text-white">
         <h5 className="card-title">Air Quality Levels</h5>
         <table className="table table-bordered">
           <thead>

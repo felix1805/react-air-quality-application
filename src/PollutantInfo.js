@@ -20,7 +20,7 @@ const PollutantInfo = ({ pollutant }) => {
     }
   }
   return (
-    <div className='card mb-4'>
+    <div className='card mb-4 bg-warning'>
       <div className='card-body'>
         <h4 className='card-title'>{pollutant.toUpperCase()} Information</h4>
         <p className='card-text'>{getPollutantInfo(pollutant)}</p>
